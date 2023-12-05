@@ -1,0 +1,97 @@
+
+.header {
+    background-color:rgb(200, 255, 0);
+    background-image: linear-gradient(rgb(0, 255, 115), yellow);
+    gap: 0;
+    margin-left: 0;
+    margin-left: 0;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+}
+
+.rounded-lg-3 {
+    border-radius: 20%;
+} 
+
+.profile {
+    background-color:rgb(200, 255, 0);
+    background-color:rgb(200, 255, 0);
+    background-image: linear-gradient(rgb(229, 255, 0), rgb(9, 223, 91));
+}
+
+.bg-body > img {
+    border-radius: 50%;
+} 
+
+h1 {
+    color: rgb(8, 128, 8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main > div > div > p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.lead {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.images-of-places {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 0px;
+    padding: 0px;
+}
+
+.images-of-places > img {
+    border-radius: 50%;
+}
+
+.price {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    background-color:rgb(200, 255, 0);
+    gap: 13px;
+}
+
+.price > .flat-fee {
+    color: rgb(67, 116, 4);
+}
+
+@media screen and (max-width: 480px) {
+    .images-of-places > img {
+        height: 80px;
+        width: 100px;
+        border-radius: 50%;
+        display: flex;
+        gap: 0px;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .main > div > div > p {
+        font-style: italic;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: lighter;
+    }
+  }
